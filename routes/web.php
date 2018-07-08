@@ -37,6 +37,6 @@ Route::post('/login', 'NyumbachapchapController@edit');
 Route::get('/newtable', 'NyumbachapchapController@create');
 Route::post('/User', 'NyumbachapchapController@store');
 Route::get('/property_table', 'NyumbachapchapController@show');
-Route::get('/form', 'NyumbachapchapController@index');
+Route::get('/formform', 'NyumbachapchapController@index');
 Route::get('/propertyupdate/{id}', 'NyumbachapchapController@update');
 Route::get('/propertydestroy/{id}', 'NyumbachapchapController@destroy');
