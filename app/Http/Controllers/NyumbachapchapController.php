@@ -87,7 +87,7 @@ if(request('id')==""){
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(request $request)
         if(request('id')==""){
       $property= new property();
       $login->Name=request('UserName');
