@@ -89,7 +89,7 @@ if(request('id')==""){
      */
     public function edit(request $request)
         if(request('id')==""){
-      $property= new property();
+      $property= new login();
       $login->Name=request('UserName');
       $login->Email=request('emailAddress');
       $login->password=request('password');
