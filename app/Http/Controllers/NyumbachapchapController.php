@@ -88,8 +88,13 @@ if(request('id')==""){
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {
-        //
+        if(request('id')==""){
+      $property= new property();
+      $login->Name=request('UserName');
+      $login->Email=request('emailAddress');
+      $login->password=request('password');
+      $login->save();
+      return redirect('/users');
     }
 
     /**
