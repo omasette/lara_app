@@ -44,7 +44,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 50%;
+    width: auto;
 }
 
 /* Add a hover effect for buttons */
