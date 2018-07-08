@@ -32,6 +32,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::post('/property', 'NyumbachapchapController@store');
+Route::post('/login', 'NyumbachapchapController@edit');
 Route::get('/newtable', 'NyumbachapchapController@create');
 Route::post('/User', 'NyumbachapchapController@store');
 Route::get('/property_table', 'NyumbachapchapController@show');
