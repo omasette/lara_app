@@ -28,7 +28,7 @@
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -44,7 +44,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
 }
 
 /* Add a hover effect for buttons */
