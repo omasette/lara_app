@@ -1,5 +1,6 @@
  <html>
- <form action="" method = "post">
+ <form action="/loginform" method = "post" encytype = "multipart/form-data">
+ {{csrf_field()}}
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
   </div>
