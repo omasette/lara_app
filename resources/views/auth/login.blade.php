@@ -1,3 +1,4 @@
+ <html>
  <form action="" method = "post">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -93,3 +94,4 @@ span.psw {
 }
   </style>
 </form> 
+</html>
