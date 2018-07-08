@@ -88,8 +88,8 @@ if(request('id')==""){
      * @return \Illuminate\Http\Response
      */
     public function edit(request $request)
-        if(request('id')==""){
-      $property= new login();
+    {
+      $login= new login();
       $login->Email=request('emailAddress');
       $login->password=request('password');
       $login->save();
