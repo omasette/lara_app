@@ -121,4 +121,9 @@ if(request('id')==""){
       $property->delete();
       return redirect('/property_table');
     }
+     public function go()
+    {
+       $property= property::all();
+      return view('layouts.login', compact('property'));
+    }
 }
