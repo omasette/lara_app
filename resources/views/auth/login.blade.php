@@ -6,7 +6,7 @@
   </div>
 
   <div class="container">
-    <label for="uname"><b>email</b></label>
+    <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email Address" name="Email" required><br>
 
     <label for="psw"><b>Password</b></label>
