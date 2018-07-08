@@ -42,7 +42,7 @@
                         <!-- Authentication Links -->
                         @guest
                          <li class="nav-item">
-                                <a class="nav-link" href="/form">MY PROPERTY</a>
+                                <a class="nav-link" href="{{ route('Myproperties') }}">{{ __('MY PROPERTY ') }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
