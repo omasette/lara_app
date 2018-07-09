@@ -69,12 +69,13 @@
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
+                
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/property_table') }}">Property</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
-                        <a href="{{ route('property_table') }}">Property</a>
                     @endauth
                 </div>
             @endif
