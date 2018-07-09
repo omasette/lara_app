@@ -124,6 +124,6 @@ if(request('id')==""){
      public function go()
     {
        $property= property::all();
-      return view('layouts.login', compact('property'));
+      return view('layouts.property_table', compact('property'));
     }
 }
