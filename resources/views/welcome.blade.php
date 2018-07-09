@@ -75,7 +75,7 @@
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('property_table') }}">Properties</a>
                     @endauth
                 </div>
             @endif
@@ -86,7 +86,10 @@
                 </div>
 
                 <div class="content">
-                  <p>Nyumba ChapChap website is a web generated site that is used to  </p>
+                  <p>Nyumba ChapChap website is a web generated site that comprises of houses that are on lease. This website makes it 
+                  easier for any person to find a house to live in without pressure from the comnfort of ones living room. Landlords can
+                  also market their products on the website by simply registering in the site and creating an account with us and then start
+                  marketing. It is as simple as create, market and start earning. No much Hustle Nyumba ChapChap got you covered.  </p>
                 </div>
             </div>
         </div>
