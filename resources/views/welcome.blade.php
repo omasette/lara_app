@@ -14,7 +14,7 @@
         <style>
             html, body {
                 background-color:   #c1c5c5;
-                color:  #989c9c;
+                color:   #0f0f0f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
