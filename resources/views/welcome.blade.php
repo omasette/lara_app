@@ -72,9 +72,9 @@
                 
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
-                        <a href="{{ url('/property_table') }}">Property</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
                 </div>
@@ -82,14 +82,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    NYUMBA CHAPCHAP
+                    NYUMBA CHAPCHAP WEBSITE
                 </div>
 
                 <div class="content">
-                  <p>tasfvajdsajdbasgajdnasdvjhasdgasjd
-                  asgdajsdbhavdjasdhgahsdbas
-                  asgdvhjasdjhavjdbasjhdvbasdh
-                  ashdjasdhasbdashd </p>
+                  <p>Nyumba ChapChap website is a web generated site that is used to  </p>
                 </div>
             </div>
         </div>
