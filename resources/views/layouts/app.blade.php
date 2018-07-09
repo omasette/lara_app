@@ -27,9 +27,6 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Nyumba Chap chap') }}
                 </a>
-                <a class="navbar-brand" href="{{ url('/property_table') }}">
-                    {{ config('app.name', 'Property') }}
-                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,9 +41,6 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                         <li class="nav-item">
-                                <a class="nav-link" href="{{ route('Myproperties') }}">{{ __('MY PROPERTY ') }}</a>
-                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
