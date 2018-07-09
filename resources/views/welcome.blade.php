@@ -72,10 +72,10 @@
                 
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/propoerty_table') }}">Property</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
-                        <a href="{{ route('property_table') }}">Properties</a>
                     @endauth
                 </div>
             @endif
