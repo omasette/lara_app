@@ -74,6 +74,7 @@
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('property_table') }}">Property</a>
                     @endauth
                 </div>
             @endif
