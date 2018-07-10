@@ -31,7 +31,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/property', 'NyumbachapchapController@store');
+Route::post('/property', 'NyumbachapchapController@store');
 Route::get('/loginform', 'NyumbachapchapController@go');
 //Route::post('/login', 'NyumbachapchapController@edit');
 Route::get('/newtable', 'NyumbachapchapController@create');
