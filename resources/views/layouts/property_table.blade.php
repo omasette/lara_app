@@ -22,9 +22,11 @@
                     <table >
                     <tr>
                         <th>
-                     <td>Property Name</td>
+                    <td>Number</td>   
+                    <td>Property Name</td>
                     <td>Location </td>
                     <td>Description</td>
+                    <td>contacts</td>
                     <td>Picture</td>
                     <td>action</td>
 
