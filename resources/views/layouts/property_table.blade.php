@@ -22,9 +22,8 @@
                     <table >
                     <tr>
                         <th>
-                     <td>Number</td>
-                    <td>Property Name </td>
-                    <td>Location</td>
+                     <td>Property Name</td>
+                    <td>Location </td>
                     <td>Description</td>
                     <td>Picture</td>
                     <td>action</td>
