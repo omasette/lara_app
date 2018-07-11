@@ -21,8 +21,7 @@
                 <div class="panel-body">
                     <table >
                     <tr>
-                        <th>
-                    <td>Number</td>   
+                        <th> 
                     <td>Property Name</td>
                     <td>Location </td>
                     <td>Description</td>
