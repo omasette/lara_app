@@ -28,6 +28,7 @@
   <div class="topnav">
     <a class="active" href="/">Home</a>
     <a href="/form">property </a>
+    <a href="/property_table">property_table </a>
   </div>
 <style>
 /* Add a black background color to the top navigation */
