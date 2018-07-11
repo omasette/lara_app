@@ -34,7 +34,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/property', 'NyumbachapchapController@store');
 Route::get('/loginform', 'NyumbachapchapController@go');
 //Route::post('/login', 'NyumbachapchapController@edit');
-//Route::get('/newtable', 'NyumbachapchapController@create');
+Route::get('/newtable', 'NyumbachapchapController@create');
 Route::post('/User', 'NyumbachapchapController@store');
 Route::get('/property_table', 'NyumbachapchapController@show');
 Route::get('/form', 'NyumbachapchapController@index');
