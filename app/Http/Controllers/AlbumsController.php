@@ -48,7 +48,7 @@ class AlbumsController extends Controller
       //if($validator->fails()){
         // return Redirect::route('create_album_form') ;
         //return redirect()->route('create_album_form')->withErrors($validator)->withInput();
-      }
+      //}
 
       //$file = Input::file('cover_image');
       $file = $request->file('cover_image');
