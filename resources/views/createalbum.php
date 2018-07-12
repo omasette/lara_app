@@ -34,12 +34,12 @@
             <button type="button" class="close"data-dismiss="alert">×</button>
 
             <h4>Warning!</h4>
-            <ul>
+            <!--<ul>
               @foreach($messages as $message)
               @endforeach
             </ul>
           </div>
-        @endif
+        @endif-->
 
         <form name="createnewalbum" method="POST"action="{{route('create_album')}}" enctype="multipart/form-data">
           <fieldset>
