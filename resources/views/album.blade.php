@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Awesome Albums</a>
+        <a class="navbar-brand" href="/portfolio">Awesome Albums</a>
         <div class="nav-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="{{route('create_album_form')}}">Create New Album</a></li>
