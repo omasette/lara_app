@@ -29,6 +29,7 @@
     <a class="active" href="/">Home</a>
     <a href="/form">property </a>
     <a href="/property_table">property_table </a>
+    <a href="{{route('create_album_form')}}">Create New Album</a>    
   </div>
 <style>
 /* Add a black background color to the top navigation */
