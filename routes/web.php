@@ -43,7 +43,7 @@ Route::get('/propertydestroy/{id}', 'NyumbachapchapController@destroy');
 
 
 /*photo portfolio routes*/
-Route::get('/', array('as' => 'index','uses' => 'AlbumsController@getList'));
+Route::get('/portfolio', array('as' => 'index','uses' => 'AlbumsController@getList'));
 Route::get('/createalbum', array('as' => 'create_album_form','uses' => 'AlbumsController@getForm'));
 Route::post('/createalbum', array('as' => 'create_album','uses' => 'AlbumsController@postCreate'));
 Route::get('/deletealbum/{id}', array('as' => 'delete_album','uses' => 'AlbumsController@getDelete'));
