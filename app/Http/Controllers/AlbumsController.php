@@ -50,7 +50,7 @@ class AlbumsController extends Controller
         //return redirect()->route('create_album_form')->withErrors($validator)->withInput();
       }
 
-      $file = Input::file('cover_image');
+      //$file = Input::file('cover_image');
       $file = $request->file('cover_image');
       $random_name = str_random(8);
       $destinationPath = 'albums/';
