@@ -44,10 +44,10 @@ class AlbumsController extends Controller
 
       //Validator::make($input, $rules)->passes(); // true
 
-      $validator = Validator::make($request->all(), $rules);
-      if($validator->fails()){
+      //$validator = Validator::make($request->all(), $rules);
+      //if($validator->fails()){
         // return Redirect::route('create_album_form') ;
-        return redirect()->route('create_album_form')->withErrors($validator)->withInput();
+        //return redirect()->route('create_album_form')->withErrors($validator)->withInput();
       }
 
       // $file = Input::file('cover_image');
