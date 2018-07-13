@@ -45,7 +45,7 @@ Route::get('/album/{id}', array('as' => 'show_album','uses' => 'NyumbachapchapCo
 
 
 /*photo portfolio routes*/
-Route::get('/portfolio', array('as' => 'index','uses' => 'AlbumsController@getList'));
+//Route::get('/portfolio', array('as' => 'index','uses' => 'AlbumsController@getList'));
 Route::get('/createalbum', array('as' => 'create_album_form','uses' => 'AlbumsController@getForm'));
 Route::get('/create_album', array('as' => 'create_album','uses' => 'AlbumsController@postCreate'));
 Route::get('/deletealbum/{id}', array('as' => 'delete_album','uses' => 'AlbumsController@getDelete'));
