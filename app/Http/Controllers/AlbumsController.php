@@ -41,16 +41,7 @@ class AlbumsController extends Controller
       $rules = ['name' => 'required', 'cover_image'=>'required|image'];
 
       $input = ['name' => null];
-
-      //Validator::make($input, $rules)->passes(); // true
-
-      //$validator = Validator::make($request->all(), $rules);
-      //if($validator->fails()){
-        // return Redirect::route('create_album_form') ;
-        //return redirect()->route('create_album_form')->withErrors($validator)->withInput();
-      //}
-
-      //$file = Input::file('cover_image');
+      
       $file = $request->file('cover_image');
       $random_name = str_random(8);
       $destinationPath = 'albums/';
@@ -69,9 +60,7 @@ class AlbumsController extends Controller
   public function getDelete($id)
   {
       $album = Album::find($id);
-
       $album->delete();
-
       return Redirect::route('index');
   }
 }
