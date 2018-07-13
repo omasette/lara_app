@@ -18,7 +18,7 @@
         <!--<a class="navbar-brand" href="/">Awesome Albums</a>-->
         <div class="nav-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="{{route('create_album_form')}}">CreateNew Album</a></li>
+            <li class="active"><a href="/create_album">CreateNew Album</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
