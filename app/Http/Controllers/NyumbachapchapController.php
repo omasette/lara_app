@@ -126,4 +126,14 @@ if(request('id')==""){
        $property= property::all();
       return view('layouts.property_table', compact('property'));
     }
+    
+      public function getAlbum($id)
+  {
+      $album = Album::with('Photos')->find($id);
+      $albums = Album::with('Photos')->get();
+      //dd($album);
+      return view('album', ['album'=>$album, 'albums'=>$albums]);
+      //->with('album',$album);
+  }
+    
 }
