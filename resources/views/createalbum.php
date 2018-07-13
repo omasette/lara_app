@@ -41,7 +41,7 @@
           </div>
         @endif
 
-        <form name="createnewalbum" method="POST"action="{{route('create_album')}}" enctype="multipart/form-data">
+        <form name="createnewalbum" method="POST"action="/create_album" enctype="multipart/form-data">
           <fieldset>
             <legend>Create an Album</legend>
             <div class="form-group">
