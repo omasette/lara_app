@@ -41,7 +41,7 @@
           </div>
         @endif
 
-        <form name="createnewalbum" method="POST"action="/create_album" enctype="multipart/form-data">
+        <form action="/create_album" method="POST" enctype="multipart/form-data">
           <fieldset>
             <legend>Create an Album</legend>
             <div class="form-group">
