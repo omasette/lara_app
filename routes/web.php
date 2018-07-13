@@ -41,6 +41,8 @@ Route::get('/form', 'NyumbachapchapController@index');
 Route::get('/propertyupdate/{id}', 'NyumbachapchapController@update');
 Route::get('/propertydestroy/{id}', 'NyumbachapchapController@destroy');
 
+Route::get('/album/{id}', array('as' => 'show_album','uses' => 'NyumbachapchapController@getAlbum'));
+
 
 /*photo portfolio routes*/
 Route::get('/portfolio', array('as' => 'index','uses' => 'AlbumsController@getList'));
